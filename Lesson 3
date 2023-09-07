@@ -1,0 +1,33 @@
+// LESSON 3 - PROGRAM EXERCISES
+// Written on Sep 7
+
+# include <iostream>
+# include <vector>
+using namespace std;
+
+int main() {
+//  Summing a number’s digits
+    cout << "Enter a positive integer: ";
+    int n; cin >> n;
+    int sum = 0;
+    for (char c: to_string(n)){
+        sum += c - '0';
+    }
+    cout << "The sum of digits is: " << sum << endl;
+
+    cout << "Please enter two digits seperated by a space: ";
+    int a, b; cin >> a >> b;
+
+    vector <int> lst;
+    lst.push_back(a);
+    lst.push_back(b);
+    do {
+        int len = lst.size();
+        int last_a = lst.back(), last_b = lst.at(len-2);
+        lst.push_back()
+
+    } while ();
+
+
+
+}
